@@ -1,0 +1,18 @@
+<suite name="Suite" parallel="Tests" >
+  <test  name="Chrometest">
+    <parameter name="browser" value="Chrome"></parameter>
+	<classes>
+      <class name="Day20.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test  name="edgetest">
+    <parameter name="browser" value="Edge"></parameter>
+		
+	<classes>
+      <class name="Day20.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
